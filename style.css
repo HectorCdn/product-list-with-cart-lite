@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+     font-family: "Red Hat Text";
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #FCF8F6;
+}
+
+.catalogue {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    gap: 24px 24px;
+}
+
+h1 {
+    margin: 24px;
+    justify-content: start;
+}
+
+.image1 {
+    background: center / cover url("image1.jpg");
+    height: 212px;
+    width: 320px;
+}
+.image2 {
+    background: center / cover url("image2.jpg");
+    height: 212px;
+    width: 320px;
+}
+.image3 {
+    background: center / cover url("image3.jpg");
+    height: 212px;
+    width: 320px;
+}
+.image4 {
+    background: center / cover url("image4.jpg");
+    height: 212px;
+    width: 320px;
+}
+.image5 {
+    background: center / cover url("image5.jpg");
+    height: 212px;
+    width: 320px;
+}
+.image6 {
+    background: center / cover url("image6.jpg");
+    height: 212px;
+    width: 320px;
+}
+.image7 {
+    background: center / cover url("image7.jpg");
+    height: 212px;
+    width: 320px;
+}   
+.image8 {
+    background: center / cover url("image8.jpg");
+    height: 212px;
+    width: 320px;
+}
+.image9 {
+    background: center / cover url("image9.jpg");
+    height: 212px;
+    width: 320px;
+}
+
+.article10 {
+    background: center / cover url("Cart.jpg");
+    height: 300px;
+    width: 330px;
+}
+
+.name {
+    color: #87635A;
+    font-size: 16px;
+}
+
+.lore {
+    color: #260F08;
+    font-weight: 600;
+}
+
+.price {
+    color: #C73B0F;
+    font-weight: 600;
+}
+
+.art10 {
+    display: none;
+}
+
+@media screen and (min-width : 440px) {
+    .catalogue {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .image {
+        height: 212px;
+        width: 212px;
+    }
+
+    .article10 {
+        height: 350px;
+        width: 688px;
+    }
+}
+
+@media screen and (min-width : 1200px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .article10 {
+        margin-top: 52px;
+    }
+
+    .art10 {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
